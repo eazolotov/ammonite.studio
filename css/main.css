@@ -10,10 +10,10 @@ body{
   margin: 20px 0;
 }
 .navbar-default {
-    background-color: #f8f8f8;
+    background-color: #d8ebfa;
     border-color: #e7e7e7;
     height: 76px;
-    transition: all 0.4s ease;
+    transition: all 0.3s cubic-bezier(0, 0, 0.2, 1);
 }
 nav.sticky {
    height: 38px;
@@ -25,28 +25,25 @@ width: 121px;
 height: 55px;
 position: relative;
 top: 9px;
-transition: all 0.4s ease;
+transition: all 0.3s cubic-bezier(0, 0, 0.2, 1);
 background-size: contain;
 
 }
 .stickylogo{
-    width: 100px!important;
     height: 35px!important;
     top: 7px!important;
 }
 .topmenu{
       font-size: 21px;
       margin-top: 19px;
-      transition: all 0.2s ease;
-      color: #008dd2;
-      font-weight: bold;
+      transition: all 0.3s cubic-bezier(0, 0, 0.2, 1);
+      color: #48443d;
 }
 .topmenu:hover{
     color: #fffff;
 }
 .stickytopmenu{
-  font-size: 18px;
-margin-top: 10px;
+margin-top: 7px;
 }
 .glyphicon {
     font-size: 24px;
@@ -116,7 +113,7 @@ a {
 }
 .collapse.in {
     border-color: #008dd2;
-    background-color: #f8f8f8;
+    background-color: #d8ebfa;
 }
 .nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover {
     border-bottom-color: #fff;
@@ -136,10 +133,26 @@ a {
     color: #fff;
 }
 .navbar-center{
-  padding-left: 27%;
+  padding-left: 26%;
+}
+.top-icons{
+  float: right;
+}
+.vk{
+color:#507299;
+}
+.yt{
+color:#e62117;
+}
+.fb{
+color:#4267b2;
 }
 
 
+
+
+
+/*mobile*/
 @media (min-width: 768px){
 .navbar-nav>li>a {
 padding-top: 5px;
