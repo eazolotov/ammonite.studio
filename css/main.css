@@ -34,16 +34,17 @@ background-size: contain;
     top: 7px!important;
 }
 .topmenu{
-      font-size: 21px;
-      margin-top: 19px;
-      transition: all 0.3s cubic-bezier(0, 0, 0.2, 1);
-      color: #48443d;
+font-size: 21px;
+    margin-top: 12px;
+    transition: all 0.3s cubic-bezier(0, 0, 0.2, 1);
+    color: #48443d;
+    line-height: 37px;
 }
 .topmenu:hover{
     color: #fffff;
 }
 .stickytopmenu{
-margin-top: 7px;
+margin-top: 0px;
 }
 .glyphicon {
     font-size: 24px;
@@ -74,12 +75,12 @@ a {
       font-weight: normal;
       font-style: normal;
     }
-    .topmenu-icon
-    {
+    .topmenu-icon{
       font-family: "fontello";
       font-style: normal;
       font-weight: normal;
-      width: 1em;
+      color: white;
+      padding-left: 1px;   
     }
     .submenu-icon {
         font-family: "fontello";
@@ -137,17 +138,32 @@ a {
 }
 .top-icons{
   float: right;
+  color:white;
 }
-.vk{
-color:#507299;
+.numberCirclevk {
+    border-radius: 50%;
+    width: 37px;
+    height: 37px;
+    background: #507299;
+    text-align: center;
+    font-size: 19px;
 }
-.yt{
-color:#e62117;
+.numberCircleyt {
+    border-radius: 50%;
+    width: 37px;
+    height: 37px;
+    background: #e62117;
+    text-align: center;
+    font-size: 19px;
 }
-.fb{
-color:#4267b2;
+.numberCirclefb {
+    border-radius: 50%;
+    width: 37px;
+    height: 37px;
+    background: #4267b2;
+    text-align: center;
+    font-size: 19px;
 }
-
 
 
 
