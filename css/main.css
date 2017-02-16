@@ -1,10 +1,213 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans&subset=latin,cyrillic);
+
+@font-face {
+    font-family: 'exo_black';
+    src: url('../fonts/exo2.0-black.eot');
+    src: url('../fonts/exo2.0-black.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/exo2.0-black.woff') format('woff'),
+         url('../fonts/exo2.0-black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_black_italic';
+    src: url('../fonts/exo2.0-blackitalic.eot');
+    src: url('../fonts/exo2.0-blackitalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/exo2.0-blackitalic.woff') format('woff'),
+         url('../fonts/exo2.0-blackitalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'firaSans';
+    src: url('../fonts/firasans.woff') format('woff'),
+         url('../fonts/firasans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'firaSansBold';
+    src: url('../fonts/firasansbold.woff') format('woff'),
+         url('../fonts/firasansbold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_bold';
+    src: url('../fonts/exo2.0-bold.eot');
+    src: url('../fonts/exo2.0-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/exo2.0-bold.woff') format('woff'),
+         url('../fonts/exo2.0-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_bold_italic';
+    src: url('../fonts/exo2.0-bolditalic.eot');
+    src: url('../fonts/exo2.0-bolditalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/exo2.0-bolditalic.woff') format('woff'),
+         url('../fonts/exo2.0-bolditalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_extra_bold';
+    src: url('../fonts/exo2.0-extrabold.eot');
+    src: url('../fonts/exo2.0-extrabold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/exo2.0-extrabold.woff') format('woff'),
+         url('../fonts/exo2.0-extrabold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_extra_bold_italic';
+    src: url('../fonts/exo2.0-extrabolditalic.eot');
+    src: url('../fonts/exo2.0-extrabolditalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/exo2.0-extrabolditalic.woff') format('woff'),
+         url('../fonts/exo2.0-extrabolditalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_extra_light';
+    src: url('../fonts/exo2.0-extralight.eot');
+    src: url('../fonts/exo2.0-extralight.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/exo2.0-extralight.woff') format('woff'),
+         url('../fonts/exo2.0-extralight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_extra_light_italic';
+    src: url('../fonts/exo2.0-extralightitalic.eot');
+    src: url('../fonts/exo2.0-extralightitalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/exo2.0-extralightitalic.woff') format('woff'),
+         url('../fonts/exo2.0-extralightitalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_italic';
+    src: url('../fonts/exo2.0-italic.eot');
+    src: url('../fonts/exo2.0-italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/exo2.0-italic.woff') format('woff'),
+         url('../fonts/exo2.0-italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_light';
+    src: url('../fonts/exo2.0-light.eot');
+    src: url('../fonts/exo2.0-light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/exo2.0-light.woff') format('woff'),
+         url('../fonts/exo2.0-light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_light_italic';
+    src: url('../fonts/exo2.0-lightitalic.eot');
+    src: url('../fonts/exo2.0-lightitalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/exo2.0-lightitalic.woff') format('woff'),
+         url('../fonts/exo2.0-lightitalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_medium';
+    src: url('../fonts/exo2.0-medium.eot');
+    src: url('../fonts/exo2.0-medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/exo2.0-medium.woff') format('woff'),
+         url('../fonts/exo2.0-medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_medium_italic';
+    src: url('../fonts/exo2.0-mediumitalic.eot');
+    src: url('../fonts/exo2.0-mediumitalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/exo2.0-mediumitalic.woff') format('woff'),
+         url('../fonts/exo2.0-mediumitalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_regular';
+    src: url('../fonts/exo2.0-regular.eot');
+    src: url('../fonts/exo2.0-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/exo2.0-regular.woff') format('woff'),
+         url('../fonts/exo2.0-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_semi_bold';
+    src: url('../fonts/exo2.0-semibold.eot');
+    src: url('../fonts/exo2.0-semibold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/exo2.0-semibold.woff') format('woff'),
+         url('../fonts/exo2.0-semibold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_semi_bold_italic';
+    src: url('../fonts/exo2.0-semibolditalic.eot');
+    src: url('../fonts/exo2.0-semibolditalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/exo2.0-semibolditalic.woff') format('woff'),
+         url('../fonts/exo2.0-semibolditalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_thin';
+    src: url('../fonts/exo2.0-thin.eot');
+    src: url('../fonts/exo2.0-thin.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/exo2.0-thin.woff') format('woff'),
+         url('../fonts/exo2.0-thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_thin_italic';
+    src: url('../fonts/exo2.0-thinitalic.eot');
+    src: url('../fonts/exo2.0-thinitalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/exo2.0-thinitalic.woff') format('woff'),
+         url('../fonts/exo2.0-thinitalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    font-family: exo_bold, Helvetica, sans-serif;
+}
+
 html {
   position: relative;
   min-height: 100%;
 }
 body{
-  font-family: 'Ubuntu', sans-serif;
-    margin-bottom: 60px;
+  font-family: firaSans, Helvetica, sans-serif;
+  padding-top: 78px;
+  font-size: 23px;
 }
 .container .text-muted {
   margin: 20px 0;
@@ -13,7 +216,7 @@ body{
     background-color: #d8ebfa;
     border-color: #e7e7e7;
     height: 76px;
-    transition: all 0.3s cubic-bezier(0, 0, 0.2, 1);
+    transition: all 0.4s ease-in;
 }
 nav.sticky {
    height: 38px;
@@ -25,7 +228,7 @@ width: 121px;
 height: 55px;
 position: relative;
 top: 9px;
-transition: all 0.3s cubic-bezier(0, 0, 0.2, 1);
+transition: all 0.4s ease-in;
 background-size: contain;
 
 }
@@ -34,17 +237,17 @@ background-size: contain;
     top: 7px!important;
 }
 .topmenu{
-font-size: 21px;
-    margin-top: 12px;
-    transition: all 0.3s cubic-bezier(0, 0, 0.2, 1);
+    font-size: 22px;
+    margin-top: 14px;
+    transition: all 0.4s ease-in;
     color: #48443d;
-    line-height: 37px;
+    line-height: 38px;
 }
 .topmenu:hover{
     color: #fffff;
 }
 .stickytopmenu{
-margin-top: 0px;
+margin-top: 1px;
 }
 .glyphicon {
     font-size: 24px;
