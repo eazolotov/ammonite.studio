@@ -199,6 +199,10 @@
 .h1, .h2, .h3, h1, h2, h3 {
     font-family: exo_bold, Helvetica, sans-serif;
 }
+.h1, h1 {
+    font-size: 40px;
+    margin-left: 29px;
+}
 
 html {
   position: relative;
@@ -206,7 +210,7 @@ html {
 }
 body{
   font-family: firaSans, Helvetica, sans-serif;
-  padding-top: 78px;
+  padding-top: 102px;
   font-size: 23px;
 }
 .container .text-muted {
@@ -367,8 +371,13 @@ a {
     text-align: center;
     font-size: 19px;
 }
-
-
+.carousel-control {
+    color: #008dd2;
+    text-align: center;
+    text-shadow: none;
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
 
 
 /*mobile*/
@@ -377,4 +386,11 @@ a {
 padding-top: 5px;
 padding-bottom: 5px;
       }
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    margin-left: -50px;
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    margin-right: -50px;
+}
     }
+
