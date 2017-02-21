@@ -395,9 +395,9 @@ a {
     left: 10px;
 }
 #top-link-block.affix {
-position: fixed;
-    bottom: 9%;
-    right: 16%;
+    position: fixed;
+    bottom: 90px;
+    right: 14%;
     transition: all 0.3s ease-in;
 }
 .carousel-control.right {
