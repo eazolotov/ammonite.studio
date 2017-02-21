@@ -197,7 +197,7 @@
 }
 
 .h1, .h2, .h3, h1, h2, h3 {
-    font-family: exo_bold, Helvetica, sans-serif;
+    font-family: exo_semi_bold, Helvetica, sans-serif;
 }
 .h1, h1 {
     font-size: 40px;
@@ -219,41 +219,49 @@ body{
   padding-top: 18px;
 }
 .navbar-default {
-    background-color: #d8ebfa;
-    border-color: #e7e7e7;
+    background-color: white;
+    border-color: white;
     height: 76px;
-    transition: all 0.4s ease-in;
+    transition: all 0.3s ease-in;
 }
 nav.sticky {
-   height: 38px;
-
+    height: 32px;
+    background-color: #d8ebfa;
+    border-color: #d8ebfa;
+    box-shadow: 0 2px 2px 0 rgba(72, 68, 73, 0.2)
+}
+.navbar-default .navbar-nav>li>a {
+    color: #48443d;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #4f8ccf;
 }
 .navbar-brand {
-  background: url(../images/logo.png) no-repeat;
-width: 121px;
-height: 55px;
+  background: url(../images/big_logo.svg) no-repeat;
+    width: 198px;
+    height: 90px;
 position: relative;
 top: 9px;
-transition: all 0.4s ease-in;
+transition: all 0.3s ease-in;
 background-size: contain;
 
 }
 .stickylogo{
-    height: 35px!important;
-    top: 7px!important;
+    height: 45px!important;
+    width: 198px;
+    top: 3px!important;
 }
 .topmenu{
     font-size: 22px;
     margin-top: 14px;
-    transition: all 0.4s ease-in;
-    color: #48443d;
-    line-height: 38px;
+    transition: all 0.3s ease-in;
+    line-height: 37px;
 }
 .topmenu:hover{
     color: #fffff;
 }
 .stickytopmenu{
-margin-top: 1px;
+margin-top: 3px;
 }
 .glyphicon {
     font-size: 24px;
@@ -327,9 +335,9 @@ a {
     background-color: #d8ebfa;
 }
 .nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover {
-    border-bottom-color: #fff;
-    background: #008dd2;
-    color: white;
+    border-bottom-color: #d8ebfa;
+    background: #d8ebfa;
+    color: #333333;
 }
 .h3, h3 {
     margin-top: 10px;
@@ -344,7 +352,7 @@ a {
   color: #51443d;
 }
 .navbar-center{
-  padding-left: 26%;
+  padding-left: 19%;
 }
 .top-icons{
   float: right;
@@ -374,29 +382,93 @@ a {
     text-align: center;
     font-size: 19px;
 }
-.carousel-control {
-    color: #008dd2;
-    text-align: center;
-    text-shadow: none;
-    filter: alpha(opacity=100);
-    opacity: 1;
-}
 .page-header {
     border: none;
+    padding: 20px 0 20px;
+    margin: 20px 0 20px;
 }
 
-
+/* up to top */
+#top-link-block.affix-top {
+    position: absolute; 
+    bottom: -82px;
+    left: 10px;
+}
+#top-link-block.affix {
+position: fixed;
+    bottom: 9%;
+    right: 16%;
+    transition: all 0.3s ease-in;
+}
+.carousel-control.right {
+  background-image: none;
+  margin-right: 20px;
+  }
+.carousel-control.left {
+  background-image: none;
+  margin-left: 20px;
+  }
+.btn-group-xs>.btn, .btn-xs {
+  font-size: 13px;
+}
+.tab-content {
+  background-color: #d8ebfa;
+  padding: 0 15px 15px 15px;
+  margin-bottom: 40px;
+}
+.nav-tabs>li>a:hover {
+    border-color: #ffffff;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #d8ebfa;
+}
+.glyphicon-chevron-left {
+    line-height: 20px;
+    margin-left: -14px!important;
+}
+.glyphicon-chevron-right {
+    line-height: 20px;
+    margin-right: -14px!important;
+}
+.carousel-control {
+    color: #008dd2;
+    text-shadow: none;
+    filter: alpha(opacity=60);
+    opacity: .6;
+    height: 40px;
+    top: 45%;
+    bottom: 0;
+    background-color: white;
+    border-radius: 50%;
+    width: 40px;
+}
+.carousel-control:hover {
+    color: #008dd2;
+    text-decoration: none;
+    filter: alpha(opacity=100);
+    outline: 0;
+    opacity: 1;
+}
+.carousel-control:focus {
+    color: #008dd2;
+    opacity: .6;
+}
 /*mobile*/
 @media (min-width: 768px){
 .navbar-nav>li>a {
 padding-top: 5px;
 padding-bottom: 5px;
-      }
-.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
-    margin-left: -50px;
 }
-.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
-    margin-right: -50px;
+.carousel-caption {
+  left: 58%;
+  padding-bottom: 43px;
+  bottom: 69%;
+  right: 33px;
+  text-align: right;
+  text-shadow: 0 1px 2px rgba(0,0,0,.9);
 }
+.nav-tabs.nav-justified>li>a {
+    border-bottom: 1px solid #d8ebfa;
     }
-
+  }
