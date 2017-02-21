@@ -203,7 +203,9 @@
     font-size: 40px;
     margin-left: 29px;
 }
-
+.jumbotron .h1, .jumbotron h1 {
+    margin-left: 0;
+}
 html {
   position: relative;
   min-height: 100%;
@@ -214,7 +216,7 @@ body{
   font-size: 23px;
 }
 .container .text-muted {
-  margin: 20px 0;
+  padding-top: 18px;
 }
 .navbar-default {
     background-color: #d8ebfa;
@@ -302,6 +304,7 @@ a {
       background-image: url(../images/contact_bg.jpg);
       background-position-x: 1%;
       background-position-y: 67%;
+      margin-bottom: 100px;
 }
 .navbar-left {
       padding-left: 20px;
@@ -335,10 +338,10 @@ a {
     padding: 5px 15px;
 }
 .footer {
-    background-color: #81a2d5;
+    background-color: #d8ebfa;
 }
 .text-muted {
-    color: #fff;
+  color: #51443d;
 }
 .navbar-center{
   padding-left: 26%;
@@ -377,6 +380,9 @@ a {
     text-shadow: none;
     filter: alpha(opacity=100);
     opacity: 1;
+}
+.page-header {
+    border: none;
 }
 
 
